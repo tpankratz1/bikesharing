@@ -12,30 +12,35 @@ For this analysis, Pandas was used to change the "tripduration" column from an i
 ## Results
 
 ### Visualization 1: Checkout Times for All Users
-This visualization shows the length of time that bikes were checked out for all riders.
- (see below)
 
 ![Checkout Times for All Users](Resources/CheckoutTimes_Users.png)
 
+This visualization shows the length of time that bikes were checked out for all riders. The data tells us that the vast majority of bike users use the bikes for a duration of 30 minutes or less, with a peak at around 10 minutes. This tells us that most bikers will not travel long distances before completing their bike journeys.
+ (see above)
+
 ### Visualization 2: Checkout Times by Gender
-This visualization shows the length of time that bikes were checked out for each gender.
 
 ![Checkout Times by Gender](Resources/CheckoutTimes_Gender.png)
 
+This visualization shows the length of time that bikes were checked out for each gender. This data tells us that males check out bikes at about three times the rate of females. There doesn't seem to be a big difference between males, females and unknowns in terms of the amount of times bikes are used, with the most bikes by far checked out for 30 minutes or less. (see above)
+
 ### Visualization 3: Trips by Weekday for Each Hour
-This visualization shows the number of bike trips by weekday for each hour of the day, as a heatmap.
 
 ![Trips by Weekday for Each Hour](Resources/TripsWeekday_Hour.png)
 
+This visualization shows the number of bike trips by weekday for each hour of the day, as a heatmap. As probably expected, due to working schedules, the most common time of day for bike usage is between 7-9 am and 4-7 pm on weekdays. One interesting anomaly appears to be on Wednesday evenings, where usage appears to be a little lighter than on other weekdays. On weekends, the usage is a bit more even and spread out, wwith the peak times of usage between 10 am and 5 pm. (see above)
+
 ### Visualization 4:  Trips by Gender (Weekday per Hour)
-This visualization shows the number of bike trips by gender for each hour of each day of the week, as a heatmap.
 
 ![ Trips by Gender (Weekday per Hour)](Resources/TripsGender_Weekday_Hour.png)
 
+This visualization shows the number of bike trips by gender for each hour of each day of the week, as a heatmap. Similarly to all users, patterns appear to be very similar across genders, both for weekdays and weekends. The biggest difference is total usage, with males using bikes more overall compared to females. (see above)
+
 ### Visualization 5: Trips by Gender by Weekday
-This visualization shows the number of bike trips by gender for each day of the week by each usertype, as a heatmap.
 
 ![Trips by Gender by Weekday](Resources/UserTrips_Gender_Weekday.png)
+
+This visualization shows the number of bike trips by gender for each day of the week by each usertype, as a heatmap. We see some interesting differences here across genders by user types. For Customers, there doesn't seem to be a large difference of usage between males and females. However, for Subscribers, there is a fairly drastic difference between males and females, with male subscribers dramatically using bikes more than females. (see above)
 
 ## Summary
 AAA
