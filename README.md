@@ -1,6 +1,6 @@
 # Bike sharing
 ## Overview
-[Link to Tableau Public Bike Sharing Storyboard](https://link)
+[Link to Tableau Public Bike Sharing Storyboard](https://public.tableau.com/app/profile/tom.pankratz/viz/BikeSharing_16485979527900/BikeSharing?publish=yes)
 
 There was a need to convince investors that a bike-sharing program in Des Moines is a solid business proposal. To solidify the proposal, one of the key stakeholders wanted to see a bike trip analysis of Citibike bike sharing data from New York City, to be used for a final presentation and analysis to pitch to investors.
 
