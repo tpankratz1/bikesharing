@@ -1,5 +1,7 @@
 # Bike sharing
 ## Overview
+[Link to Tableau Public Bike Sharing Storyboard](https://link)
+
 There was a need to convince investors that a bike-sharing program in Des Moines is a solid business proposal. To solidify the proposal, one of the key stakeholders wanted to see a bike trip analysis of Citibike bike sharing data from New York City, to be used for a final presentation and analysis to pitch to investors.
 
 For this analysis, Pandas was used to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, a set of visualizations was created to:
@@ -42,6 +44,44 @@ This visualization shows the number of bike trips by gender for each hour of eac
 
 This visualization shows the number of bike trips by gender for each day of the week by each usertype, as a heatmap. We see some interesting differences here across genders by user types. For Customers, there doesn't seem to be a large difference of usage between males and females. However, for Subscribers, there is a fairly drastic difference between males and females, with male subscribers dramatically using bikes more than females. (see above)
 
+### Visualization 6: August Peak Hours
+
+![August Peak Hours](Resources/August_Peak_Hours.png)
+
+This visualization shows the the peak hours of bike usage during the month of August. There is higher bike usage between 7-9 am and 4-7 pm, with the peak near 225K for the 5 pm hour. An ideal time for bike repairs would be between 1-5 am. (see above)
+
+### Visualization 7: Bike Repairs
+
+![Bike Repairs](Resources/Bike_Repairs.png)
+
+This visualization shows which bikes have had the most repairs, with the top bike needing 479 repairs. This information is useful in understanding which bikes have had more wear and tear and will be more likely to be replaced sooner. (see above)
+
 ## Summary
-AAA
+As a results of these findings and visualizations, the following is a summary of the results:
+- **Checkout times for all users:** The vast majority of bike users use the bikes for a duration of 30 minutes or less, with a peak at around 10 minutes.
+- **Checkout times by gender:** Males check out bikes at about three times the rate of females. There doesn't seem to be a big difference between males, females and unknowns in terms of the amount of times bikes are used, with the most bikes by far checked out for 30 minutes or less.
+- **Trips by weekday for each hour:** As probably expected, due to working schedules, the most common time of day for bike usage is between 7-9 am and 4-7 pm on weekdays.
+
+- **Trips by gender (weekday per hour):** Similarly to all users, patterns appear to be very similar across genders, both for weekdays and weekends. The biggest difference is total usage, with males using bikes more overall compared to females.
+
+- **Trips by gender by weekday:** We see some interesting differences across genders by user types. For Customers, there doesn't seem to be a large difference of usage between males and females. However, for Subscribers, there is a fairly drastic difference between males and females, with male subscribers dramatically using bikes more than females.
+
+- **August peak hours:** In the month of August, there is higher bike usage between 7-9 am and 4-7 pm, with the peak near 225K for the 5 pm hour. An ideal time for bike repairs would be between 1-5 am.
+
+- **Bike Repairs:** The top bike needed 479 repairs. This information is useful in understanding which bikes have had more wear and tear and will be more likely to be replaced sooner.
+
+Some additional visualizations and insights suggested for future analysis:
+
+### Average Trip Duration
+
+![Average Trip Duration](Resources/Average_Trip_Duration.png)
+
+This visualization shows the average trip duration for different ages. It is clear that the younger the riders are, the longer their average trip duration. (see above)
+
+### Bike Utilization
+
+![Bike Utilization](Resources/Bike_Utilization.png)
+
+This visualization shows the spread of all of the bike trip durations. It is clear that the majority of bike trips have smaller durations, and a small amount of bike trips have much larger trip durations. (see above)
+
 
